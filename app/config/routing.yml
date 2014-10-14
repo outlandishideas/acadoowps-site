@@ -1,0 +1,7 @@
+outlandish_site:
+    resource: "@OutlandishAcadOowpBundle/Resources/config/routing.yml"
+    prefix: /
+
+routemaster:
+    resource: "@OutlandishRoutemasterBundle/Resources/config/routing.yml"
+    prefix: /
