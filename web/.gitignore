@@ -14,3 +14,5 @@
 
 #unignore sample config file
 !/wp-config-oi.php
+# ignore .htaccess file
+.htaccess
