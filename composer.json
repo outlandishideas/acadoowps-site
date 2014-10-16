@@ -23,6 +23,7 @@
 		"wpackagist/hyper-cache": "@dev",
 		"wpackagist/posts-to-posts": "*",
 		"wpackagist/regenerate-thumbnails": "*",
+		"wpackagist/wordpress-importer": "*",
 		"wpackagist/simple-page-ordering": "*"
 	},
 	"scripts": {
