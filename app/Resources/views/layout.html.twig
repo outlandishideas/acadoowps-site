@@ -2,7 +2,7 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <head>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
     <meta charset="utf-8" />
     <title>{% block title %} {{ post.title() }}{% endblock %}</title>
     {{ wp_head }}
@@ -10,7 +10,7 @@
         <link href="{{ asset('bundles/outlandishacadoowp/css/foundation/foundation.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('bundles/outlandishacadoowp/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('bundles/outlandishacadoowp/css/main.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/css/isci.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bundles/outlandishsite/css/main.css') }}" rel="stylesheet" type="text/css" />
         <link rel='stylesheet' id='dashicons-css'  href='http://scaca.beta.gd/wp-includes/css/dashicons.min.css?ver=3.9.1' type='text/css' media='all' />
     {% endblock %}
     {% block scripts_header %}
@@ -134,18 +134,13 @@
 {% endblock %}
 
 <script type="application/javascript">
-    window.searchAjaxUrl = "{{ path('searchAjax') }}";
+    window.searchAjaxUrl = "{{ path('search_ajax') }}";
 </script>
 <script>
     window.fs = new window.FacetSearch();
     $('#filter-selected li.filter-option').each(function(i, el) {
         window.fs.addSelection($(el).attr('rel'));
     });
-</script>
-
-<script type="application/javascript">
-    var searchAjaxUrl = "{{ path('searchAjax') }}";
-    console.log(searchAjaxUrl);
 </script>
 
 </body>
