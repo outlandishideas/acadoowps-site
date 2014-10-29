@@ -8,3 +8,7 @@
 /vendor/
 /bin/
 /composer.phar
+
+node_modules
+npm-debug.log
+composer.lock

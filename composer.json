@@ -1,5 +1,5 @@
 {
-	"name": "outlandish/symfony-wordpress-edition",
+	"name": "outlandish/acadoowps-site",
 	"autoload": {
 		"psr-0": {
 			"Outlandish": "src/"

@@ -1,0 +1,21 @@
+{
+  "name": "acadoowps-site",
+  "version": "1.0.1",
+  "homepage": "https://github.com/outlandishideas/acadoowps-site",
+  "authors": [
+    "Matthew <mkendon@outlandish.com>"
+  ],
+  "description": "outlandish site using the acadoowps",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "foundation": "~5.4.4"
+    }
+}
