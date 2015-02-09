@@ -14,7 +14,7 @@
 
 		"outlandish/routemaster-bundle": "dev-master",
 		"outlandish/oowp-bundle": "dev-master",
-		"outlandish/acadoowp-bundle": "dev-master",
+		"outlandish/acadoowp-bundle": "dev-controllers",
 		"outlandish/symfony-bridge": "*",
 
 		"wpackagist-plugin/advanced-custom-fields": "trunk",
@@ -26,6 +26,9 @@
 		"wpackagist-plugin/wordpress-importer": "*",
 		"wpackagist-plugin/simple-page-ordering": "*"
 	},
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
 	"scripts": {
 		"post-install-cmd": [
 			"Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
