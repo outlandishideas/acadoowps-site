@@ -14,7 +14,7 @@
 
 		"outlandish/routemaster-bundle": "dev-master",
 		"outlandish/oowp-bundle": "dev-master",
-		"outlandish/acadoowp-bundle": "dev-controllers",
+		"outlandish/acadoowp-bundle": "dev-master",
 		"outlandish/symfony-bridge": "*",
 
 		"wpackagist-plugin/advanced-custom-fields": "trunk",
