@@ -26,9 +26,6 @@
 		"wpackagist-plugin/wordpress-importer": "*",
 		"wpackagist-plugin/simple-page-ordering": "*"
 	},
-    "require-dev": {
-        "phpspec/phpspec": "~2.0"
-    },
 	"scripts": {
 		"post-install-cmd": [
 			"Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
